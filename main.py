@@ -1,16 +1,20 @@
-from typing import Annotated
-from fastapi import FastAPI, status, Depends, HTTPException, Request
+from fastapi import FastAPI
 import requests
 import math as m
 import time as t
 import redis, json, logging
+import os
 
 app = FastAPI()
-r = redis.Redis(host="localhost", port=6379, decode_responses=True)
+# redis_host= os.environ.get("REDIS_HOST","localhost")
+# redis_port=int(os.environ.get("REDIS_PORT",6379))
+redis_url=os.environ.get("REDIS_URL","redis://localhost:6379")
+r = redis.Redis.from_url(redis_url,decode_responses=True)
 # DECODE RESPONSE makes Redis return strings instead of raw bytes
 logging.basicConfig(level=logging.INFO)
 #configures logging once, says "show INFO level and above"
-logger=logging.getlogger(__name__)
+logger=logging.getLogger(__name__)
+
 
 
 @app.get("/")
@@ -27,6 +31,7 @@ def fetch_hackernews(topic):
     for hit in hits:
         results.append(
             {
+                "source": "hackernews",
                 "title": hit["title"],
                 "url": hit["url"],
                 "points": hit["points"],
@@ -74,8 +79,8 @@ def search(topic: str):
 
 def score_posts(posts, topic):
     w_rel = 3
-    w_eng = 2
-    w_rec = 1
+    w_eng = 1
+    w_rec = 2
     max_engagement = float("-inf")
     max_recency = float("-inf")
     for post in posts:
@@ -113,6 +118,7 @@ def fetch_stackexchange(topic):
     for item in items:
         results.append(
             {
+                "source": "stackoverflow",
                 "title": item["title"],
                 "url": item["link"],
                 "points": item["score"],

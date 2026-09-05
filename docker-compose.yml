@@ -1,0 +1,9 @@
+services: #heres myy containers
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_HOST=redis
+  redis:
+    image: redis:7-alpine
