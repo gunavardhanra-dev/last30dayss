@@ -4,6 +4,6 @@ services: #heres myy containers
     ports:
       - "8000:8000"
     environment:
-      - REDIS_HOST=redis
+      - REDIS_URL=redis://redis:6379
   redis:
     image: redis:7-alpine

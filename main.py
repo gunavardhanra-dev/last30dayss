@@ -1,11 +1,19 @@
-from fastapi import FastAPI
+from fastapi import FastAPI , Request
 import requests
 import math as m
 import time as t
 import redis, json, logging
 import os
+import random
+from rate_limit import limiter
+from slowapi import _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
+
+
 
 app = FastAPI()
+app.state.limiter= limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 # redis_host= os.environ.get("REDIS_HOST","localhost")
 # redis_port=int(os.environ.get("REDIS_PORT",6379))
 redis_url=os.environ.get("REDIS_URL","redis://localhost:6379")
@@ -41,18 +49,24 @@ def fetch_hackernews(topic):
         )
     return results
 
-
 @app.get("/search")
-def search(topic: str):
+@limiter.limit("10/minute")
+def search(request:Request,topic: str):
+# `request` is unused here — FastAPI injects it, and @limiter.limit reads
+# the caller's IP off it to key the rate limit. Remove it and slowapi errors.
     if not topic:
         return {"error": "topic required"}
-    key = f"search:{topic}"
+    key = f"search:{topic.strip().lower()}"
     try:
         cached = r.get(key)
     except Exception as e:
         logger.warning(f"Redis GET failed: {e}")
         cached = None
+        
     if cached:
+        if cached == "EMPTY":
+            logger.info("cache hit (empty)")
+            return {"error": "no results available"}
         logger.info("Cache hit")
         return json.loads(cached)
     try:
@@ -65,12 +79,18 @@ def search(topic: str):
     except Exception as e:
         logger.warning(f"Stack Exchange fetch failed: {e}")
         se = []
+
     combined = hn + se
     if not combined:
+        try:
+            r.setex(key,1000,"EMPTY")
+        except Exception as e:
+            logger.warning(f"redis SET failed:{e}")
+        logger.info("cached as empty")
         return {"error": "no results available"}
     result = score_posts(combined, topic)
     try:
-        r.setex(key, 3600, json.dumps(result))
+        r.setex(key, 3600+random.randint(-300,300), json.dumps(result))
     except Exception as e:
         logger.warning(f"redis SET failed:{e}")
     logger.info("Cache miss")
