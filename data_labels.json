@@ -1,0 +1,1757 @@
+[
+    {
+        "topic": "rust ownership",
+        "results": [
+            {
+                "rank": 1,
+                "title": "How to enable Rust Ownership paradigm in C++",
+                "url": "https://stackoverflow.com/questions/30011603/how-to-enable-rust-ownership-paradigm-in-c",
+                "relevant": 1
+            },
+            {
+                "rank": 2,
+                "title": "Understanding usage of Rc<RefCell<SomeStruct>> in Rust",
+                "url": "https://stackoverflow.com/questions/61997859/understanding-usage-of-rcrefcellsomestruct-in-rust",
+                "relevant": 1
+            },
+            {
+                "rank": 3,
+                "title": "Implement graph-like data structure in Rust",
+                "url": "https://stackoverflow.com/questions/34747464/implement-graph-like-data-structure-in-rust",
+                "relevant": 1
+            },
+            {
+                "rank": 4,
+                "title": "What happens when assigning to the underscore pattern?",
+                "url": "https://stackoverflow.com/questions/76311007/what-happens-when-assigning-to-the-underscore-pattern",
+                "relevant": 0
+            },
+            {
+                "rank": 5,
+                "title": "How does Rust move stack variables that are not Copyable?",
+                "url": "https://stackoverflow.com/questions/36230710/how-does-rust-move-stack-variables-that-are-not-copyable",
+                "relevant": 2
+            },
+            {
+                "rank": 6,
+                "title": "Why does Rust not allow the copy and drop traits on one type?",
+                "url": "https://stackoverflow.com/questions/51704063/why-does-rust-not-allow-the-copy-and-drop-traits-on-one-type",
+                "relevant": 2
+            },
+            {
+                "rank": 7,
+                "title": "Cannot move out of borrowed content when trying to transfer ownership",
+                "url": "https://stackoverflow.com/questions/28258548/cannot-move-out-of-borrowed-content-when-trying-to-transfer-ownership",
+                "relevant": 2
+            },
+            {
+                "rank": 8,
+                "title": "Take value out of std::optional",
+                "url": "https://stackoverflow.com/questions/71980007/take-value-out-of-stdoptional",
+                "relevant": 0
+            },
+            {
+                "rank": 9,
+                "title": "How can I take ownership of a Vec element and replace it with something else?",
+                "url": "https://stackoverflow.com/questions/33204273/how-can-i-take-ownership-of-a-vec-element-and-replace-it-with-something-else",
+                "relevant": 2
+            },
+            {
+                "rank": 10,
+                "title": "How do Rust's ownership semantics relate to uniqueness typing as found in Clean and Mercury?",
+                "url": "https://stackoverflow.com/questions/26309081/how-do-rusts-ownership-semantics-relate-to-uniqueness-typing-as-found-in-clean",
+                "relevant": 1
+            }
+        ]
+    },
+    {
+        "topic": "postgres indexing",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Postgres unique constraint vs index",
+                "url": "https://stackoverflow.com/questions/23542794/postgres-unique-constraint-vs-index",
+                "relevant": 2
+            },
+            {
+                "rank": 2,
+                "title": "Postgres No Primary Key Drawback",
+                "url": "https://stackoverflow.com/questions/12679940/postgres-no-primary-key-drawback",
+                "relevant": 1
+            },
+            {
+                "rank": 3,
+                "title": "About clustered index in postgres",
+                "url": "https://stackoverflow.com/questions/4796548/about-clustered-index-in-postgres",
+                "relevant": 2
+            },
+            {
+                "rank": 4,
+                "title": "How to list indexes created for table in postgres",
+                "url": "https://stackoverflow.com/questions/37329561/how-to-list-indexes-created-for-table-in-postgres",
+                "relevant": 2
+            },
+            {
+                "rank": 5,
+                "title": "Postgres query optimization (forcing an index scan)",
+                "url": "https://stackoverflow.com/questions/14554302/postgres-query-optimization-forcing-an-index-scan",
+                "relevant": 1
+            },
+            {
+                "rank": 6,
+                "title": "Completely copying a postgres table with SQL",
+                "url": "https://stackoverflow.com/questions/6601978/completely-copying-a-postgres-table-with-sql",
+                "relevant": 0
+            },
+            {
+                "rank": 7,
+                "title": "Copy a table (including indexes) in postgres",
+                "url": "https://stackoverflow.com/questions/198141/copy-a-table-including-indexes-in-postgres",
+                "relevant": 1
+            },
+            {
+                "rank": 8,
+                "title": "Most Efficient Way to Create an Index in Postgres",
+                "url": "https://stackoverflow.com/questions/18580448/most-efficient-way-to-create-an-index-in-postgres",
+                "relevant": 2
+            },
+            {
+                "rank": 9,
+                "title": "Postgres and indexes on foreign keys and primary keys",
+                "url": "https://stackoverflow.com/questions/970562/postgres-and-indexes-on-foreign-keys-and-primary-keys",
+                "relevant": 2
+            },
+            {
+                "rank": 10,
+                "title": "select records from postgres where timestamp is in certain range",
+                "url": "https://stackoverflow.com/questions/12438990/select-records-from-postgres-where-timestamp-is-in-certain-range",
+                "relevant": 0
+            }
+        ]
+    },
+    {
+        "topic": "kubernetes operators",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Kubernetes Liveness Probe Logging",
+                "url": "https://stackoverflow.com/questions/34455040/kubernetes-liveness-probe-logging",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Running Kubernetes locally on M1 Mac",
+                "url": "https://stackoverflow.com/questions/65864009/running-kubernetes-locally-on-m1-mac",
+                "relevant": true
+            },
+            {
+                "rank": 3,
+                "title": "Kubernetes Namespaces stuck in Terminating status",
+                "url": "https://stackoverflow.com/questions/52954174/kubernetes-namespaces-stuck-in-terminating-status",
+                "relevant": true
+            },
+            {
+                "rank": 4,
+                "title": "Kubernetes on AWS cloud provider",
+                "url": "https://stackoverflow.com/questions/34458753/kubernetes-on-aws-cloud-provider",
+                "relevant": true
+            },
+            {
+                "rank": 5,
+                "title": "Difference between Kubernetes prometheues operator vs helm chart",
+                "url": "https://stackoverflow.com/questions/59561391/difference-between-kubernetes-prometheues-operator-vs-helm-chart",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Kubernetes on docker for windows, persistent volume with hostPath gives Operation not permitted",
+                "url": "https://stackoverflow.com/questions/71018631/kubernetes-on-docker-for-windows-persistent-volume-with-hostpath-gives-operatio",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "kubernetes mysql chown operation not permitted",
+                "url": "https://stackoverflow.com/questions/34878574/kubernetes-mysql-chown-operation-not-permitted",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Limit access to Kubernetes secret by RBAC",
+                "url": "https://stackoverflow.com/questions/52268462/limit-access-to-kubernetes-secret-by-rbac",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "How to manage multiple kubernetes clusters via Terraform?",
+                "url": "https://stackoverflow.com/questions/57861264/how-to-manage-multiple-kubernetes-clusters-via-terraform",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "String operation on env variables on Kubernetes",
+                "url": "https://stackoverflow.com/questions/40889743/string-operation-on-env-variables-on-kubernetes",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "react server components",
+        "results": [
+            {
+                "rank": 1,
+                "title": "TanStack Start Now Support React Server Components",
+                "url": "https://tanstack.com/blog/react-server-components",
+                "relevant": true
+            },
+            {
+                "rank": 2,
+                "title": "Zero-Bundle-Size React Server Components",
+                "url": "https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html",
+                "relevant": true
+            },
+            {
+                "rank": 3,
+                "title": "Critical Security Vulnerability in React Server Components",
+                "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+                "relevant": true
+            },
+            {
+                "rank": 4,
+                "title": "Storybook for React Server Components",
+                "url": "https://storybook.js.org/blog/storybook-react-server-components/",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Everything About React Server Components",
+                "url": "https://vercel.com/blog/everything-about-react-server-components",
+                "relevant": true
+            },
+            {
+                "rank": 6,
+                "title": "Denial of service and source code exposure in React Server Components",
+                "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Making sense of React Server Components",
+                "url": "https://www.joshwcomeau.com/react/server-components/",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "React Server Components Now in RedwoodJS",
+                "url": "https://redwoodjs.com/blog/rsc-now-in-redwoodjs",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "TailwindSQL \u2013 Like TailwindCSS, but for SQL queries in React Server components",
+                "url": "https://github.com/mmarinovic/tailwindsql",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Next.js 13 + React Server Components",
+                "url": "https://github.com/vercel/next-react-server-components",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "docker compose",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Interactive shell using Docker Compose",
+                "url": "https://stackoverflow.com/questions/36249744/interactive-shell-using-docker-compose",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "What's the difference between Docker Compose and Kubernetes?",
+                "url": "https://stackoverflow.com/questions/47536536/whats-the-difference-between-docker-compose-and-kubernetes",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "What's the difference between Docker Compose vs. Dockerfile",
+                "url": "https://stackoverflow.com/questions/29480099/whats-the-difference-between-docker-compose-vs-dockerfile",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Docker Compose wait for container X before starting Y",
+                "url": "https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Docker (Apple Silicon/M1 Preview) MySQL \"no matching manifest for linux/arm64/v8 in the manifest list entries\"",
+                "url": "https://stackoverflow.com/questions/65456814/docker-apple-silicon-m1-preview-mysql-no-matching-manifest-for-linux-arm64-v8",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "How to specify Memory & CPU limit in docker compose version 3",
+                "url": "https://stackoverflow.com/questions/42345235/how-to-specify-memory-cpu-limit-in-docker-compose-version-3",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "How do I mount a host directory as a volume in docker compose",
+                "url": "https://stackoverflow.com/questions/40905761/how-do-i-mount-a-host-directory-as-a-volume-in-docker-compose",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "How can I delete all local Docker images?",
+                "url": "https://stackoverflow.com/questions/44785585/how-can-i-delete-all-local-docker-images",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "How to rebuild docker container in docker-compose.yml?",
+                "url": "https://stackoverflow.com/questions/36884991/how-to-rebuild-docker-container-in-docker-compose-yml",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "How can I get Docker Compose to always recreate containers from fresh images?",
+                "url": "https://stackoverflow.com/questions/32612650/how-can-i-get-docker-compose-to-always-recreate-containers-from-fresh-images",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "redis caching",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Redis Sentinel vs clustering",
+                "url": "https://stackoverflow.com/questions/31143072/redis-sentinel-vs-clustering",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Redis NodeJs server error,client is closed",
+                "url": "https://stackoverflow.com/questions/70185436/redis-nodejs-server-error-client-is-closed",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Performance of Redis vs Disk in caching application",
+                "url": "https://stackoverflow.com/questions/12868222/performance-of-redis-vs-disk-in-caching-application",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Redis as a database",
+                "url": "https://stackoverflow.com/questions/4718832/redis-as-a-database",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Redisson vs Jedis for redis",
+                "url": "https://stackoverflow.com/questions/42250951/redisson-vs-jedis-for-redis",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Is Redis just a cache?",
+                "url": "https://stackoverflow.com/questions/10137857/is-redis-just-a-cache",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Difference between django-redis-cache and django-redis for redis caching with Django?",
+                "url": "https://stackoverflow.com/questions/21932097/difference-between-django-redis-cache-and-django-redis-for-redis-caching-with-dj",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Redis cache vs. using memory directly",
+                "url": "https://stackoverflow.com/questions/19477821/redis-cache-vs-using-memory-directly",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Redis and Memcached or just Redis?",
+                "url": "https://stackoverflow.com/questions/4188620/redis-and-memcached-or-just-redis",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "How can I use redis with Django?",
+                "url": "https://stackoverflow.com/questions/3801379/how-can-i-use-redis-with-django",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "fastapi",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Catch `Exception` globally in FastAPI",
+                "url": "https://stackoverflow.com/questions/61596911/catch-exception-globally-in-fastapi",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "How to do multiprocessing in FastAPI",
+                "url": "https://stackoverflow.com/questions/63169865/how-to-do-multiprocessing-in-fastapi",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "FastAPI (starlette) get client real IP",
+                "url": "https://stackoverflow.com/questions/60098005/fastapi-starlette-get-client-real-ip",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "FastAPI asynchronous background tasks blocks other requests?",
+                "url": "https://stackoverflow.com/questions/67599119/fastapi-asynchronous-background-tasks-blocks-other-requests",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Is it possible to use FastAPI with Django?",
+                "url": "https://stackoverflow.com/questions/63726203/is-it-possible-to-use-fastapi-with-django",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "FastAPI redirection for trailing slash returns non-SSL link",
+                "url": "https://stackoverflow.com/questions/63511413/fastapi-redirection-for-trailing-slash-returns-non-ssl-link",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "FastAPI runs API calls in serial instead of parallel fashion",
+                "url": "https://stackoverflow.com/questions/71516140/fastapi-runs-api-calls-in-serial-instead-of-parallel-fashion",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "How can I run the FastAPI server using Pycharm?",
+                "url": "https://stackoverflow.com/questions/62856818/how-can-i-run-the-fastapi-server-using-pycharm",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "What are the best practices for structuring a FastAPI project?",
+                "url": "https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "How to add a custom decorator to a FastAPI route?",
+                "url": "https://stackoverflow.com/questions/64497615/how-to-add-a-custom-decorator-to-a-fastapi-route",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "rate limiting",
+        "results": [
+            {
+                "rank": 1,
+                "title": "What's a good rate limiting algorithm?",
+                "url": "https://stackoverflow.com/questions/667508/whats-a-good-rate-limiting-algorithm",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Disable rate limiter in Laravel?",
+                "url": "https://stackoverflow.com/questions/43058219/disable-rate-limiter-in-laravel",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Examples of HTTP API Rate Limiting HTTP Response headers",
+                "url": "https://stackoverflow.com/questions/16022624/examples-of-http-api-rate-limiting-http-response-headers",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading",
+                "url": "https://stackoverflow.com/questions/65806330/toomanyrequests-you-have-reached-your-pull-rate-limit-you-may-increase-the-lim",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "How can I implement rate limiting with Apache? (requests per second)",
+                "url": "https://stackoverflow.com/questions/131681/how-can-i-implement-rate-limiting-with-apache-requests-per-second",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "How do I implement a write rate limit in Cloud Firestore security rules?",
+                "url": "https://stackoverflow.com/questions/56487578/how-do-i-implement-a-write-rate-limit-in-cloud-firestore-security-rules",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "S3 - What Exactly Is A Prefix? And what Ratelimits apply?",
+                "url": "https://stackoverflow.com/questions/52443839/s3-what-exactly-is-a-prefix-and-what-ratelimits-apply",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "How can I increase the key repeat rate beyond the OS's limit?",
+                "url": "https://stackoverflow.com/questions/171326/how-can-i-increase-the-key-repeat-rate-beyond-the-oss-limit",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Difference between throttling and debouncing a function",
+                "url": "https://stackoverflow.com/questions/25991367/difference-between-throttling-and-debouncing-a-function",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Cocoapods: Failed to connect to GitHub to update the CocoaPods/Specs specs repo",
+                "url": "https://stackoverflow.com/questions/38993527/cocoapods-failed-to-connect-to-github-to-update-the-cocoapods-specs-specs-repo",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "webassembly",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Compiling Python to WebAssembly",
+                "url": "https://stackoverflow.com/questions/44761748/compiling-python-to-webassembly",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Blazor Server side vs Blazor WebAssembly Hosted",
+                "url": "https://stackoverflow.com/questions/71265374/blazor-server-side-vs-blazor-webassembly-hosted",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "using WebAssembly in chrome extension",
+                "url": "https://stackoverflow.com/questions/49611290/using-webassembly-in-chrome-extension",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "How to acess the appsettings in blazor webassembly",
+                "url": "https://stackoverflow.com/questions/60552768/how-to-acess-the-appsettings-in-blazor-webassembly",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "What languages can be compiled to WebAssembly (Wasm)?",
+                "url": "https://stackoverflow.com/questions/43540878/what-languages-can-be-compiled-to-webassembly-wasm",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "How can I return a JavaScript string from a WebAssembly function",
+                "url": "https://stackoverflow.com/questions/41353389/how-can-i-return-a-javascript-string-from-a-webassembly-function",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Why is webAssembly function almost 300 time slower than same JS function",
+                "url": "https://stackoverflow.com/questions/48173979/why-is-webassembly-function-almost-300-time-slower-than-same-js-function",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "The Visual Studio 2022 Error \"Failed to launch debug adapter. Additional information may be available in the output window.\"",
+                "url": "https://stackoverflow.com/questions/70374907/the-visual-studio-2022-error-failed-to-launch-debug-adapter-additional-informa",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "How to compile Java to WASM (WebAssembly)?",
+                "url": "https://stackoverflow.com/questions/68265863/how-to-compile-java-to-wasm-webassembly",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "C# WASM without Blazor",
+                "url": "https://stackoverflow.com/questions/68927533/c-wasm-without-blazor",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "sqlite",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Tracking down the 16-year-old WAL-reset SQLite bug",
+                "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "SQLite Critical CVEs or LLM Slop?",
+                "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "SQLite 3 Fiddle",
+                "url": "https://sqlite.org/fiddle/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Java and SQLite",
+                "url": "https://stackoverflow.com/questions/41233/java-and-sqlite",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Why SQLite Uses Bytecode",
+                "url": "https://sqlite.org/draft/whybytecode.html",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Improve INSERT-per-second performance of SQLite",
+                "url": "https://stackoverflow.com/questions/1711631/improve-insert-per-second-performance-of-sqlite",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "I'm all-in on server-side SQLite",
+                "url": "https://fly.io/blog/all-in-on-sqlite-litestream/",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "SQLite Internals: Pages and B-trees",
+                "url": "https://fly.io/blog/sqlite-internals-btree/",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "SQLite is all you need for durable workflows",
+                "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Store boolean value in SQLite",
+                "url": "https://stackoverflow.com/questions/843780/store-boolean-value-in-sqlite",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "graphql",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Firebase & GraphQL",
+                "url": "https://stackoverflow.com/questions/37535374/firebase-graphql",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Get GraphQL whole schema query",
+                "url": "https://stackoverflow.com/questions/37397886/get-graphql-whole-schema-query",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Can graphql return aggregate counts?",
+                "url": "https://stackoverflow.com/questions/34321688/can-graphql-return-aggregate-counts",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "How to send graphql query by postman?",
+                "url": "https://stackoverflow.com/questions/42520663/how-to-send-graphql-query-by-postman",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "GraphQL gql Syntax Error: Expected Name, found }",
+                "url": "https://stackoverflow.com/questions/48331103/graphql-gql-syntax-error-expected-name-found",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "In GraphQL what's the meaning of \"edges\" and \"node\"?",
+                "url": "https://stackoverflow.com/questions/42622912/in-graphql-whats-the-meaning-of-edges-and-node",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "When and How to use GraphQL with microservice architecture",
+                "url": "https://stackoverflow.com/questions/38071714/when-and-how-to-use-graphql-with-microservice-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "How to add default values to input arguments in graphql",
+                "url": "https://stackoverflow.com/questions/51563960/how-to-add-default-values-to-input-arguments-in-graphql",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "GraphQL Expected Iterable, but did not find one for field xxx.yyy",
+                "url": "https://stackoverflow.com/questions/46513476/graphql-expected-iterable-but-did-not-find-one-for-field-xxx-yyy",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Nuxtjs vuetify throwing lots of `Using / for division is deprecated and will be removed in Dart Sass 2.0.0.`",
+                "url": "https://stackoverflow.com/questions/67631879/nuxtjs-vuetify-throwing-lots-of-using-for-division-is-deprecated-and-will-be",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "typescript",
+        "results": [
+            {
+                "rank": 1,
+                "title": "TypeScript 7",
+                "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "TypeScript 5.0",
+                "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Announcing TypeScript 2.0",
+                "url": "https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "TypeScript at Google",
+                "url": "http://neugierig.org/software/blog/2018/09/typescript-at-google.html",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Announcing TypeScript 2.1",
+                "url": "https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "TypeScript at Slack",
+                "url": "https://slack.engineering/typescript-at-slack-a81307fa288d#1",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "A 10x Faster TypeScript",
+                "url": "https://devblogs.microsoft.com/typescript/typescript-native-port/",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "About \"*.d.ts\" in TypeScript",
+                "url": "https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Interfaces vs Types in TypeScript",
+                "url": "https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "TypeScript types can run DOOM [video]",
+                "url": "https://www.youtube.com/watch?v=0mCsluv5FXA",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "ai",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Gemini AI",
+                "url": "https://deepmind.google/technologies/gemini/",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Open source AI must win",
+                "url": "https://opensourceaimustwin.com/?share=v2",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "I'm Tired of Talking to AI",
+                "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Local AI needs to be the norm",
+                "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "I believe there are entire companies right now under AI psychosis",
+                "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+                "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Project Glasswing: Securing critical software for the AI era",
+                "url": "https://www.anthropic.com/glasswing",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "An AI agent published a hit piece on me",
+                "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "My AI skeptic friends are all nuts",
+                "url": "https://fly.io/blog/youre-all-nuts/",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Open source AI is the path forward",
+                "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "security",
+        "results": [
+            {
+                "rank": 1,
+                "title": "ImageMagick security policy 'PDF' blocking conversion",
+                "url": "https://stackoverflow.com/questions/52998331/imagemagick-security-policy-pdf-blocking-conversion",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Xcode process launch failed: Security",
+                "url": "https://stackoverflow.com/questions/25824908/xcode-process-launch-failed-security",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Transport security has blocked a cleartext HTTP",
+                "url": "https://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Android 8: Cleartext HTTP traffic not permitted",
+                "url": "https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "SecurityError: Blocked a frame with origin from accessing a cross-origin frame",
+                "url": "https://stackoverflow.com/questions/25098021/securityerror-blocked-a-frame-with-origin-from-accessing-a-cross-origin-frame",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "SOAP vs REST (differences)",
+                "url": "https://stackoverflow.com/questions/19884295/soap-vs-rest-differences",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "\"PKIX path building failed\" and \"unable to find valid certification path to requested target\"",
+                "url": "https://stackoverflow.com/questions/21076179/pkix-path-building-failed-and-unable-to-find-valid-certification-path-to-requ",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Why is char[] preferred over String for passwords?",
+                "url": "https://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "How can I generate a self-signed SSL certificate using OpenSSL?",
+                "url": "https://stackoverflow.com/questions/10175812/how-can-i-generate-a-self-signed-ssl-certificate-using-openssl",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Config Error: This configuration section cannot be used at this path",
+                "url": "https://stackoverflow.com/questions/9794985/config-error-this-configuration-section-cannot-be-used-at-this-path",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "databases",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Working on databases from prison",
+                "url": "https://turso.tech/blog/working-on-databases-from-prison",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Free Postgres databases for small projects",
+                "url": "https://fly.io/blog/free-postgres/",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "How to switch databases in psql?",
+                "url": "https://stackoverflow.com/questions/3949876/how-to-switch-databases-in-psql",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "An AI agent deleted our production database. The agent's confession is below",
+                "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Things I wished more developers knew about databases",
+                "url": "https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "New \u2018Meow\u2019 attack has deleted almost 4k unsecured databases",
+                "url": "https://www.bleepingcomputer.com/news/security/new-meow-attack-has-deleted-almost-4-000-unsecured-databases/",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Notion \u2013 All-in-one workspace for notes, tasks, wikis, and databases",
+                "url": "https://www.notion.so",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Hosting SQLite databases on GitHub Pages or any static file hoster",
+                "url": "https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Package managers keep using Git as a database, it never works out",
+                "url": "https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Supabase MCP can leak your entire SQL database",
+                "url": "https://www.generalanalysis.com/blog/supabase-mcp-blog",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "go",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Concatenate two slices in Go",
+                "url": "https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Format a Go string without printing?",
+                "url": "https://stackoverflow.com/questions/11123865/format-a-go-string-without-printing",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Difference between := and = operators in Go",
+                "url": "https://stackoverflow.com/questions/17891226/difference-between-and-operators-in-go",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "How to efficiently concatenate strings in go",
+                "url": "https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Reading a file line by line in Go",
+                "url": "https://stackoverflow.com/questions/8757389/reading-a-file-line-by-line-in-go",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "What is the idiomatic Go equivalent of C's ternary operator?",
+                "url": "https://stackoverflow.com/questions/19979178/what-is-the-idiomatic-go-equivalent-of-cs-ternary-operator",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Does Go have \"if x in\" construct similar to Python?",
+                "url": "https://stackoverflow.com/questions/15323767/does-go-have-if-x-in-construct-similar-to-python",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Function declaration syntax: things in parenthesis before function name",
+                "url": "https://stackoverflow.com/questions/34031801/function-declaration-syntax-things-in-parenthesis-before-function-name",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "How to print struct variables in console?",
+                "url": "https://stackoverflow.com/questions/24512112/how-to-print-struct-variables-in-console",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "When does the init() function run?",
+                "url": "https://stackoverflow.com/questions/24790175/when-does-the-init-function-run",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "swift",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Shopify is moving from React Native back to Swift and Kotlin",
+                "url": "https://shopify.engineering/back-to-native",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Swift is Open Source",
+                "url": "https://swift.org/",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "The Swift Programming Language",
+                "url": "https://developer.apple.com/swift/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Swift Playgrounds for macOS",
+                "url": "https://apps.apple.com/us/app/swift-playgrounds/id1496833156?mt=12%22",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "The Swift SDK for Android",
+                "url": "https://www.swift.org/blog/nightly-swift-sdk-for-android/",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Swift Beta performance: sorting arrays",
+                "url": "https://stackoverflow.com/questions/24101718/swift-beta-performance-sorting-arrays",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Swift for TensorFlow Shuts Down",
+                "url": "https://github.com/tensorflow/swift",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Writing Gnome Apps with Swift",
+                "url": "https://www.swift.org/blog/adwaita-swift/",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Apple is patenting Swift features",
+                "url": "https://forums.swift.org/t/apple-is-indeed-patenting-swift-features/19779",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Chris Lattner left Swift core team",
+                "url": "https://forums.swift.org/t/core-team-to-form-language-workgroup/55455/6",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "rust",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Nvidia announces native GPU programming in Rust",
+                "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Announcing Rust 1.0",
+                "url": "http://blog.rust-lang.org/2015/05/15/Rust-1.0.html",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Rust Moderation Team Resigns",
+                "url": "https://github.com/rust-lang/team/pull/671",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Async-await on stable Rust",
+                "url": "https://blog.rust-lang.org/2019/11/07/Async-await-stable.html",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Zero-cost futures in Rust",
+                "url": "http://aturon.github.io/blog/2016/08/11/futures/",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Announcing Rust 1.0 Alpha",
+                "url": "http://blog.rust-lang.org/2015/01/09/Rust-1.0-alpha.html",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "A Sad Day for Rust",
+                "url": "https://words.steveklabnik.com/a-sad-day-for-rust",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "A half-hour to learn Rust",
+                "url": "https://fasterthanli.me/articles/a-half-hour-to-learn-rust",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "A half-hour to learn Rust",
+                "url": "https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Default function arguments in Rust",
+                "url": "https://stackoverflow.com/questions/24047686/default-function-arguments-in-rust",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "ruby",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Ruby 4.0.0",
+                "url": "https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Ruby 3.0",
+                "url": "https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Ruby 3.3",
+                "url": "https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+                "url": "https://www.rubyhack.ai/",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Ruby 2.0.0 Released",
+                "url": "http://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Ruby 3.0 Preview 1",
+                "url": "https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/?hn=t",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Equivalent of \"continue\" in Ruby",
+                "url": "https://stackoverflow.com/questions/4010039/equivalent-of-continue-in-ruby",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "From Node to Ruby on Rails",
+                "url": "https://nikodunk.com/a-node-js-developer-discovers-rails/",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Ruby Central's Attack on RubyGems [pdf]",
+                "url": "https://pup-e.com/goodbye-rubygems.pdf",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Why Ruby on Rails still matters",
+                "url": "https://www.contraption.co/rails-versus-nextjs/",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "zig language",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Zig Programming Language",
+                "url": "https://ziglang.org/",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Ziglings: Learn the Zig programming language by fixing tiny broken programs",
+                "url": "https://codeberg.org/ziglings/exercises/#ziglings",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "The Zig Programming Language",
+                "url": "https://ziglang.org/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "The Zig Programming Language",
+                "url": "https://ziglang.org/",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Zig Language 0.12 Release",
+                "url": "https://github.com/ziglang/zig/releases/tag/0.12.0",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Zig language server and cancellation",
+                "url": "https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "A high-throughput parser for the Zig programming language",
+                "url": "https://github.com/Validark/Accelerated-Zig-Parser",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Looking at Zig Programming Language",
+                "url": "https://codecs.multimedia.cx/2022/02/looking-at-zig-programming-language/",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Improving your Zig language server experience",
+                "url": "https://kristoff.it/blog/improving-your-zls-experience/",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "What Makes the Zig Programming Language Unique?",
+                "url": "https://erikexplores.substack.com/p/what-makes-the-zig-programming-language",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "nim programming",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Nim operator overloading",
+                "url": "https://stackoverflow.com/questions/29461573/nim-operator-overloading",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Nim game question",
+                "url": "https://stackoverflow.com/questions/4156059/nim-game-question",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Nim cross compilation to C",
+                "url": "https://stackoverflow.com/questions/29935580/nim-cross-compilation-to-c",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Why debugging Nim with GDB yields \"No symbol XXX in current context\" when trying to introspect variables?",
+                "url": "https://stackoverflow.com/questions/76033676/why-debugging-nim-with-gdb-yields-no-symbol-xxx-in-current-context-when-trying",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "How to invert the output in Nim Game?",
+                "url": "https://stackoverflow.com/questions/64378418/how-to-invert-the-output-in-nim-game",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Exporting Nim Anon Function to C++",
+                "url": "https://stackoverflow.com/questions/49063110/exporting-nim-anon-function-to-c",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "How to increase variables by 1 in Nim",
+                "url": "https://stackoverflow.com/questions/63325850/how-to-increase-variables-by-1-in-nim",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Can't get Pretty Printers to work for debugging Nim code in Codium (VSCode) with GDB (nim-gdb.py)",
+                "url": "https://stackoverflow.com/questions/73782010/cant-get-pretty-printers-to-work-for-debugging-nim-code-in-codium-vscode-with",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Asynchronous code (javascript's setTimeout equivalent) in Nim",
+                "url": "https://stackoverflow.com/questions/46025492/asynchronous-code-javascripts-settimeout-equivalent-in-nim",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "reading files from tar.gz archive in Nim",
+                "url": "https://stackoverflow.com/questions/33082639/reading-files-from-tar-gz-archive-in-nim",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "apl language",
+        "results": [
+            {
+                "rank": 1,
+                "title": "The APL programming language source code (2012)",
+                "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "The APL Programming Language Source Code (2012)",
+                "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "The APL Programming Language Source Code",
+                "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Lang5 \u2013 a stack oriented APL-like language",
+                "url": "https://github.com/bernd-ulmann/lang5",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "The APL Progamming Language Source Code",
+                "url": "http://www.computerhistory.org/atchm/the-apl-progamming-language-source-code/",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Conditional function in APL",
+                "url": "https://stackoverflow.com/questions/15752895/conditional-function-in-apl",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Ruins of forgotten empires: APL languages",
+                "url": "http://scottlocklin.wordpress.com/2013/07/28/ruins-of-forgotten-empires-apl-languages/",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "The BEAM needs an APL-y language",
+                "url": "https://medium.com/@gordonguthrie/the-beam-needs-an-apl-y-language-6c5c998ba6d",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "unwanted: APL keyboard overlay enabled?",
+                "url": "https://stackoverflow.com/questions/69447628/unwanted-apl-keyboard-overlay-enabled",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Ivy \u2013 An interpreter for an APL-like language",
+                "url": "https://pkg.go.dev/robpike.io/ivy",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "prolog",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Comparing SQL and Prolog",
+                "url": "https://stackoverflow.com/questions/2117651/comparing-sql-and-prolog",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Haskell vs. Prolog comparison",
+                "url": "https://stackoverflow.com/questions/1932770/haskell-vs-prolog-comparison",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Good beginners material on Prolog",
+                "url": "https://stackoverflow.com/questions/401635/good-beginners-material-on-prolog",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "org.xml.sax.SAXParseException: Content is not allowed in prolog",
+                "url": "https://stackoverflow.com/questions/5138696/org-xml-sax-saxparseexception-content-is-not-allowed-in-prolog",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Knowing when to use cut in prolog",
+                "url": "https://stackoverflow.com/questions/14541164/knowing-when-to-use-cut-in-prolog",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "What's a good Prolog IDE for Linux?",
+                "url": "https://stackoverflow.com/questions/282968/whats-a-good-prolog-ide-for-linux",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "What are the main technical differences between Prolog and miniKanren, with respect to logic programming?",
+                "url": "https://stackoverflow.com/questions/28467011/what-are-the-main-technical-differences-between-prolog-and-minikanren-with-resp",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "How does Prolog technically work? What's under the hood?",
+                "url": "https://stackoverflow.com/questions/5881432/how-does-prolog-technically-work-whats-under-the-hood",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "pandoc version 1.12.3 or higher is required and was not found (R shiny)",
+                "url": "https://stackoverflow.com/questions/28432607/pandoc-version-1-12-3-or-higher-is-required-and-was-not-found-r-shiny",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Maven is not working in Java 8 when Javadoc tags are incomplete",
+                "url": "https://stackoverflow.com/questions/15886209/maven-is-not-working-in-java-8-when-javadoc-tags-are-incomplete",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "why is my postgres query slow",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Slow running PostgreSQL query",
+                "url": "https://stackoverflow.com/questions/67401792/slow-running-postgresql-query",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Postgres slow Trigger performance on DELETE",
+                "url": "https://stackoverflow.com/questions/71859518/postgres-slow-trigger-performance-on-delete",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Having limit [small value] issues with Postgres",
+                "url": "https://stackoverflow.com/questions/76559988/having-limit-small-value-issues-with-postgres",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Encapsulating Postgres query in view makes it extremely slow",
+                "url": "https://stackoverflow.com/questions/3527213/encapsulating-postgres-query-in-view-makes-it-extremely-slow",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "Why is the n+1 selects pattern slow?",
+                "url": "https://stackoverflow.com/questions/26245404/why-is-the-n1-selects-pattern-slow",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Rails query slow but fast in pgAdmin",
+                "url": "https://stackoverflow.com/questions/22100728/rails-query-slow-but-fast-in-pgadmin",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "slow MySQL \"INNER JOIN\"",
+                "url": "https://stackoverflow.com/questions/9062987/slow-mysql-inner-join",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "How to optimize IP Address search query",
+                "url": "https://stackoverflow.com/questions/72946115/how-to-optimize-ip-address-search-query",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Why does postgres do a table scan instead of using my index?",
+                "url": "https://stackoverflow.com/questions/50583920/why-does-postgres-do-a-table-scan-instead-of-using-my-index",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Postgres Hash Join speed",
+                "url": "https://stackoverflow.com/questions/16652793/postgres-hash-join-speed",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "best practices for api versioning",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Best practices for API versioning?",
+                "url": "https://stackoverflow.com/questions/389169/best-practices-for-api-versioning",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "django-rest-framework: api versioning",
+                "url": "https://stackoverflow.com/questions/14269719/django-rest-framework-api-versioning",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Web Services API Versioning",
+                "url": "https://stackoverflow.com/questions/1679322/web-services-api-versioning",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Best way to handle JAX-RS REST API URI versioning",
+                "url": "https://stackoverflow.com/questions/14827222/best-way-to-handle-jax-rs-rest-api-uri-versioning",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "What's the best return code for \"@unique\" violations?",
+                "url": "https://stackoverflow.com/questions/25015592/whats-the-best-return-code-for-unique-violations",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "How to save an image in Android Q using MediaStore?",
+                "url": "https://stackoverflow.com/questions/56904485/how-to-save-an-image-in-android-q-using-mediastore",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Comparing SQLAlchemy Object Instances for Equality of Attributes",
+                "url": "https://stackoverflow.com/questions/39043003/comparing-sqlalchemy-object-instances-for-equality-of-attributes",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "What are your WebService Versioning best practices?",
+                "url": "https://stackoverflow.com/questions/2101566/what-are-your-webservice-versioning-best-practices",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "TypeError [ERR_UNESCAPED_CHARACTERS] Request path contains unescaped characters",
+                "url": "https://stackoverflow.com/questions/54025710/typeerror-err-unescaped-characters-request-path-contains-unescaped-characters",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "Vendor MIME types (for API versioning)",
+                "url": "https://stackoverflow.com/questions/18969938/vendor-mime-types-for-api-versioning",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "how to debug memory leaks",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Detected memory leaks",
+                "url": "https://stackoverflow.com/questions/8544090/detected-memory-leaks",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Haskell: how to detect \"lazy memory leaks\"",
+                "url": "https://stackoverflow.com/questions/61666819/haskell-how-to-detect-lazy-memory-leaks",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "How to debug memory leaks when Leaks instrument does not show them?",
+                "url": "https://stackoverflow.com/questions/30992338/how-to-debug-memory-leaks-when-leaks-instrument-does-not-show-them",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "How to use Leak Canary",
+                "url": "https://stackoverflow.com/questions/33654503/how-to-use-leak-canary",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "NodeJS : How to debug \"EventEmitter memory leak detected. 11 listeners added\"",
+                "url": "https://stackoverflow.com/questions/15581978/nodejs-how-to-debug-eventemitter-memory-leak-detected-11-listeners-added",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "How to profile memory usage & performance with Instruments?",
+                "url": "https://stackoverflow.com/questions/6641540/how-to-profile-memory-usage-performance-with-instruments",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "How to debug \"Not enough storage is available to process this command\"",
+                "url": "https://stackoverflow.com/questions/41543956/how-to-debug-not-enough-storage-is-available-to-process-this-command",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "Ping Tasks will not complete",
+                "url": "https://stackoverflow.com/questions/70097065/ping-tasks-will-not-complete",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "Is there a way to avoid undeployment memory leaks in Tomcat?",
+                "url": "https://stackoverflow.com/questions/4565105/is-there-a-way-to-avoid-undeployment-memory-leaks-in-tomcat",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "How to fix \"No reply dictionary received from LeakAgent request\" error in Xcode?",
+                "url": "https://stackoverflow.com/questions/53666493/how-to-fix-no-reply-dictionary-received-from-leakagent-request-error-in-xcode",
+                "relevant": null
+            }
+        ]
+    },
+    {
+        "topic": "event driven architecture",
+        "results": [
+            {
+                "rank": 1,
+                "title": "Event Sourcing vs Event Driven Architecture difference",
+                "url": "https://stackoverflow.com/questions/71083541/event-sourcing-vs-event-driven-architecture-difference",
+                "relevant": null
+            },
+            {
+                "rank": 2,
+                "title": "Event driven architecture...infinite loop",
+                "url": "https://stackoverflow.com/questions/3688117/event-driven-architecture-infinite-loop",
+                "relevant": null
+            },
+            {
+                "rank": 3,
+                "title": "Good resources to learn about Event Driven Architecture",
+                "url": "https://stackoverflow.com/questions/2652181/good-resources-to-learn-about-event-driven-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 4,
+                "title": "Data Driven vs Event Driven model/architecture?",
+                "url": "https://stackoverflow.com/questions/42174856/data-driven-vs-event-driven-model-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 5,
+                "title": "jQuery plugin for Event Driven Architecture?",
+                "url": "https://stackoverflow.com/questions/2967332/jquery-plugin-for-event-driven-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 6,
+                "title": "Documenting an Event-Driven Architecture",
+                "url": "https://stackoverflow.com/questions/50760313/documenting-an-event-driven-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 7,
+                "title": "Handling multiple event dependency in event-driven architecture",
+                "url": "https://stackoverflow.com/questions/37830008/handling-multiple-event-dependency-in-event-driven-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 8,
+                "title": "What is SEDA (Staged Event Driven Architecture)?",
+                "url": "https://stackoverflow.com/questions/3570610/what-is-seda-staged-event-driven-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 9,
+                "title": "How to handle HTTP requests in a Microservice / Event Driven Architecture?",
+                "url": "https://stackoverflow.com/questions/50986816/how-to-handle-http-requests-in-a-microservice-event-driven-architecture",
+                "relevant": null
+            },
+            {
+                "rank": 10,
+                "title": "How to query in a Event Driven Microservice architecture?",
+                "url": "https://stackoverflow.com/questions/48279479/how-to-query-in-a-event-driven-microservice-architecture",
+                "relevant": null
+            }
+        ]
+    }
+]

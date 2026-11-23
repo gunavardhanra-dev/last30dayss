@@ -1,0 +1,36 @@
+You are grading search results for relevance.
+
+TOPIC: {topic}
+
+Grade each result title below on how relevant it is to someone
+searching for this topic.
+
+SCALE:
+2 = Directly relevant. This is what the user was looking for.
+1 = Related to the topic, but not what the user asked for — covers
+    only a narrow slice of it, or mentions it incidentally while
+    being mainly about something else.
+0 = Unrelated. The user would skip it.
+
+RULES:
+- Judge by meaning, not keywords. A title can be highly relevant
+  without containing the topic's exact words.
+- Judge the title only. Do not infer content that isn't stated.
+- When genuinely torn between two grades, choose the lower one.
+
+EXAMPLES:
+Topic: "postgres indexing"
+  "About clustered index in postgres"              -> 2
+  "Postgres No Primary Key Drawback"               -> 1
+  "Completely copying a postgres table with SQL"   -> 0
+
+Topic: "rust ownership"
+  "How does Rust move stack variables?"            -> 2
+  "Implement graph-like data structure in Rust"    -> 1
+
+TITLES:
+{titles}
+
+Respond with ONLY a JSON array of 10 integers, in the same order as
+the titles. No explanation, no markdown, no other text.
+Example: [2, 1, 0, 2, 1, 1, 0, 2, 0, 1]

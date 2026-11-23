@@ -5,6 +5,7 @@ import time as t
 import redis, json, logging
 import os
 import random
+from html import unescape
 from rate_limit import limiter
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
@@ -103,21 +104,28 @@ def score_posts(posts, topic):
     w_rec = 2
     max_engagement = float("-inf")
     max_recency = float("-inf")
+    max_relevance= float("-inf")
     for post in posts:
         engagement = m.log(1 + post["points"] + post["num_comments"])
         age = t.time() - post["created_at_i"]
         recency = 1 / (age + 1)
         title = post["title"] or ""  # this is because some titles can be null
-        if topic.lower() in title.lower():
-            relevance = 1
-        else:
-            relevance = 0
+        title_words=title.lower().split()
+        topic_words=topic.lower().split()
+        count=0
+        if title:
+            for word in topic_words:
+                if word in title_words:
+                    count+=1
+        relevance=count/len(title_words)if title_words else 0
+        max_relevance =max(max_relevance,relevance)
         max_engagement = max(max_engagement, engagement)
         max_recency = max(max_recency, recency)
         post["engagement"] = engagement
         post["recency"] = recency
         post["relevance"] = relevance
     for post in posts:
+        post["relevance"]=post["relevance"]/ max_relevance
         post["engagement"] = post["engagement"] / max_engagement
         post["recency"] = post["recency"] / max_recency
         score = (
@@ -139,7 +147,7 @@ def fetch_stackexchange(topic):
         results.append(
             {
                 "source": "stackoverflow",
-                "title": item["title"],
+                "title": unescape(item["title"]),
                 "url": item["link"],
                 "points": item["score"],
                 "num_comments": item["answer_count"],
